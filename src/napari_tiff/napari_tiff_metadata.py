@@ -76,7 +76,6 @@ def get_tiff_metadata(tif: TiffFile) -> dict[str, Any]:
 
     rgb = page.photometric in (PHOTOMETRIC.RGB, PHOTOMETRIC.YCBCR) and shape[-1] in (3, 4)
     name = None
-    scale = None
     colormap = None
     contrast_limits = None
     blending = None

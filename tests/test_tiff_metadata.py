@@ -11,7 +11,6 @@ from base_data import (
 from napari_tiff.napari_tiff_metadata import (
     get_extra_metadata,
     get_scale_and_units_from_ome,
-    get_scale_and_units_from_tiff,
 )
 from napari_tiff.napari_tiff_colormaps import qpi_color_to_rgba
 from napari_tiff.napari_tiff_reader import tifffile_reader
